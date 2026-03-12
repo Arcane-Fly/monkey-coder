@@ -15,9 +15,9 @@ anyio==4.9.0
     #   starlette
 audioop-lts==0.2.1
     # via gradio
-brotli==1.1.0
+brotli==1.2.0
     # via gradio
-certifi==2025.7.14
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
@@ -32,7 +32,7 @@ fastapi==0.116.1
     # via gradio
 ffmpy==0.6.1
     # via gradio
-filelock==3.18.0
+filelock==3.20.3
     # via huggingface-hub
 fsspec==2025.7.0
     # via
@@ -61,7 +61,7 @@ huggingface-hub==0.34.1
     # via
     #   gradio
     #   gradio-client
-idna==3.10
+idna==3.11
     # via
     #   anyio
     #   httpx
@@ -82,7 +82,7 @@ numpy==2.3.2
     # via
     #   gradio
     #   pandas
-orjson==3.11.1
+orjson==3.11.6
     # via gradio
 packaging==25.0
     # via
@@ -105,7 +105,7 @@ pygments==2.19.2
     # via rich
 python-dateutil==2.9.0.post0
     # via pandas
-python-multipart==0.0.20
+python-multipart==0.0.22
     # via gradio
 pytz==2025.2
     # via pandas
@@ -113,7 +113,7 @@ pyyaml==6.0.2
     # via
     #   gradio
     #   huggingface-hub
-requests==2.32.4
+requests==2.32.5
     # via huggingface-hub
 rich==14.1.0
     # via typer
@@ -153,7 +153,7 @@ typing-inspection==0.4.1
     # via pydantic
 tzdata==2025.2
     # via pandas
-urllib3==2.5.0
+urllib3==2.6.3
     # via requests
 uvicorn==0.35.0
     # via gradio

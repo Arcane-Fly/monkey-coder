@@ -2,11 +2,11 @@
 #    uv pip compile pyproject.toml --output-file requirements-updated.txt
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.12.15
+aiohttp==3.13.3
     # via
     #   monkey-coder-core (pyproject.toml)
     #   dashscope
-aiomysql==0.2.0
+aiomysql==0.3.0
     # via monkey-coder-core (pyproject.toml)
 aiosignal==1.4.0
     # via aiohttp
@@ -48,7 +48,7 @@ cachetools==5.5.2
     # via google-auth
 celery==5.5.3
     # via monkey-coder-core (pyproject.toml)
-certifi==2025.8.3
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
@@ -75,7 +75,7 @@ click-repl==0.3.0
     # via celery
 contourpy==1.3.3
     # via matplotlib
-cryptography==45.0.6
+cryptography==46.0.5
     # via
     #   dashscope
     #   pyjwt
@@ -97,7 +97,7 @@ fastapi==0.116.1
     # via
     #   monkey-coder-core (pyproject.toml)
     #   sentry-sdk
-fonttools==4.59.1
+fonttools==4.60.2
     # via matplotlib
 frozenlist==1.7.0
     # via
@@ -126,7 +126,7 @@ httpx==0.28.1
     #   google-genai
     #   groq
     #   openai
-idna==3.10
+idna==3.11
     # via
     #   anyio
     #   httpx
@@ -191,7 +191,7 @@ propcache==0.3.2
     #   yarl
 psutil==7.0.0
     # via monkey-coder-core (pyproject.toml)
-pyasn1==0.6.1
+pyasn1==0.6.2
     # via
     #   pyasn1-modules
     #   python-jose
@@ -245,7 +245,7 @@ referencing==0.36.2
     #   jsonschema-specifications
 regex==2025.7.34
     # via tiktoken
-requests==2.32.4
+requests==2.32.5
     # via
     #   dashscope
     #   google-genai
@@ -284,7 +284,7 @@ sniffio==1.3.1
     #   openai
 soupsieve==2.7
     # via beautifulsoup4
-starlette==0.47.2
+starlette==0.49.1
     # via fastapi
 stripe==12.4.0
     # via monkey-coder-core (pyproject.toml)
@@ -320,7 +320,7 @@ typing-inspection==0.4.1
     # via pydantic
 tzdata==2025.2
     # via kombu
-urllib3==2.5.0
+urllib3==2.6.3
     # via
     #   requests
     #   sentry-sdk

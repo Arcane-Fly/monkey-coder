@@ -23,7 +23,7 @@ billiard==4.2.1
     # via celery
 celery==5.5.3
     # via -r requirements.in
-certifi==2025.7.14
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx

@@ -23,7 +23,7 @@ billiard==4.2.1
     # via celery
 celery==5.5.3
     # via -r requirements.in
-certifi==2025.7.14
+certifi==2026.2.25
     # via
     #   httpcore
     #   httpx
@@ -99,7 +99,7 @@ python-dotenv==1.1.1
     # via uvicorn
 pyyaml==6.0.2
     # via uvicorn
-requests==2.32.4
+requests==2.33.0
     # via docker
 selenium==4.34.2
     # via -r requirements.in
